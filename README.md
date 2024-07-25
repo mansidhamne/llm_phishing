@@ -44,6 +44,12 @@ RoBERTa:
 
 From the above metrics we can see in baseline models, highest accuracy on this dataset is provided by **Logistic Regression** equal to **94.44%** while the **LLM model RoBERTa** provides **96.86%** accuracy.
 
+### Examples:
 
+Testing the best baseline model:
+<img width="1147" alt="Screenshot 2024-07-25 at 8 51 59 PM" src="https://github.com/user-attachments/assets/37e4fe87-9c45-431a-8554-d0fec87c8684">
+
+Testing the LLM model:
+<img width="1138" alt="Screenshot 2024-07-25 at 9 11 34 PM" src="https://github.com/user-attachments/assets/ed711682-1746-4a4a-9abd-34494ae5f223">
 
 
