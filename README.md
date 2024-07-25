@@ -52,4 +52,29 @@ Testing the best baseline model:
 Testing the LLM model:
 <img width="1138" alt="Screenshot 2024-07-25 at 9 11 34 PM" src="https://github.com/user-attachments/assets/ed711682-1746-4a4a-9abd-34494ae5f223">
 
+### Project Structure:
 
+```
+llm_phishing
+├───data
+│   ├───emails.csv
+├───src
+|    ├───get_data.py
+|    └───infer.py
+|    └───main.py
+|    └───preprocess.py
+|    └───train.py
+|    └───utils.py
+│   .gitignore
+└── requirements.txt
+```
+
+### Execute the training pipeline:
+``` 
+python src\main.py -t train -mt <model_type> -c <dataset_name> -l <label_col_name> -n <text_col_name>
+```
+
+### Execute the inference pipeline:
+``` 
+python src\main.py -t infer -mt <model_type> -c <dataset_name> -l <label_col_name> -n <text_col_name>
+```
